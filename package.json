@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TheBastionBot/cleverbot.bastionbot.org/issues"
   },
-  "homepage": "https://cleverbot.bastionbot.org"
+  "homepage": "https://cleverbot.bastionbot.org",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  }
 }
