@@ -9,7 +9,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('compile', () => {
-  // Compine TypeScript
+  // Compile TypeScript
   return tsProject.src()
     .pipe(tsProject())
     .js.pipe(gulp.dest('build'));
