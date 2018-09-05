@@ -3,6 +3,7 @@
 import * as bodyParser from "body-parser";
 import * as express from "express";
 import * as logger from "morgan";
+import * as dotenv from "dotenv";
 
 import * as APIRoute from "./routes/api";
 
@@ -50,6 +51,9 @@ class Server {
    * @return void
    */
   private config() {
+    // Configure dotenv
+    dotenv.config();
+
     // Use logger for server side logging
     this.app.use(logger("dev"));
 
