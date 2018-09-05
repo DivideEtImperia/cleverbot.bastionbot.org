@@ -4,6 +4,9 @@
   "description": "Bastion Cleverbot",
   "main": "./scripts/start",
   "scripts": {
+    "gulp:clean": "gulp clean",
+    "gulp:compile": "gulp compile",
+    "build": "npm run gulp:clean && npm run gulp:compile",
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
