@@ -87,6 +87,9 @@ yarn.lock
 # TypeScript v1 declaration files
 typings/
 
+# TypeScript compiled files for the project
+build/
+
 # Optional npm cache directory
 .npm
 
